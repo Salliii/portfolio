@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+:root {
+}
+
+@custom-variant dark (&:is(.dark *));
+.dark {
+}
+
+@theme inline {
+}
+
+@layer base {
+	html {
+		@apply scroll-smooth;
+	}
+
+	body {
+		@apply w-screen min-h-dvh
+		antialiased;
+	}
+}
